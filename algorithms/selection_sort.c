@@ -11,9 +11,9 @@
 #include <stdlib.h>
 #include "sort.h"
 
-void sort(int *array);
-void show(int *array);
-void exch(int *array, int i, int j);
+void sort(int array[]);
+void show(int array[]);
+void exch(int array[], int i, int j);
 int less(int a, int b);
 
 void execute() {
@@ -29,7 +29,7 @@ void execute() {
   show(array);
 }
 
-void sort(int *array) {
+void sort(int array[]) {
   for (int i = 0; i < N; i++) {
     int min = i;
     for (int j = i; j < N; j++) {
@@ -45,13 +45,13 @@ int less(int a, int b) {
   return a < b;
 }
 
-void exch(int *array, int i, int j) {
+void exch(int array[], int i, int j) {
   int t = array[i];
   array[i] = array[j];
   array[j] = t;
 }
 
-void show(int *array) {
+void show(int array[]) {
   for (int i = 0; i < N; i++) {
     printf("index: %d, value: %d\n", i, array[i]);
   }
