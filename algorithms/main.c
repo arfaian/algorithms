@@ -7,12 +7,11 @@
 //
 
 #include <stdio.h>
+#include "sort.h"
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    printf("Hello, World!\n");
+    execute();
     return 0;
 }
 

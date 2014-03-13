@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F58F9EAA18D161A4009AE62C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F58F9EA918D161A4009AE62C /* main.c */; };
 		F58F9EAC18D161A4009AE62C /* algorithms.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F58F9EAB18D161A4009AE62C /* algorithms.1 */; };
+		F58F9EB318D161E9009AE62C /* selection_sort.c in Sources */ = {isa = PBXBuildFile; fileRef = F58F9EB218D161E9009AE62C /* selection_sort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		F58F9EA618D161A3009AE62C /* algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58F9EA918D161A4009AE62C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F58F9EAB18D161A4009AE62C /* algorithms.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = algorithms.1; sourceTree = "<group>"; };
+		F58F9EB218D161E9009AE62C /* selection_sort.c */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.c; path = selection_sort.c; sourceTree = "<group>"; };
+		F58F9EB418D16254009AE62C /* sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sort.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				F58F9EA918D161A4009AE62C /* main.c */,
 				F58F9EAB18D161A4009AE62C /* algorithms.1 */,
+				F58F9EB218D161E9009AE62C /* selection_sort.c */,
+				F58F9EB418D16254009AE62C /* sort.h */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F58F9EB318D161E9009AE62C /* selection_sort.c in Sources */,
 				F58F9EAA18D161A4009AE62C /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
