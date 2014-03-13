@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 arfaian. All rights reserved.
 //
 
-#ifndef algorithms_selection_sort_h
-#define algorithms_selection_sort_h
+#ifndef algorithms_sort_h
+#define algorithms_sort_h
 
 #define N 10
 
