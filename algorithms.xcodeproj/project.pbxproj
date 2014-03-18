@@ -10,6 +10,7 @@
 		F58F9EAA18D161A4009AE62C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F58F9EA918D161A4009AE62C /* main.c */; };
 		F58F9EAC18D161A4009AE62C /* algorithms.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F58F9EAB18D161A4009AE62C /* algorithms.1 */; };
 		F58F9EB318D161E9009AE62C /* selection_sort.c in Sources */ = {isa = PBXBuildFile; fileRef = F58F9EB218D161E9009AE62C /* selection_sort.c */; };
+		F5F3298D18D7EF7500D09651 /* cairo.h in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F3298C18D7EF6100D09651 /* cairo.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,36 @@
 		F58F9EAB18D161A4009AE62C /* algorithms.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = algorithms.1; sourceTree = "<group>"; };
 		F58F9EB218D161E9009AE62C /* selection_sort.c */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.c; path = selection_sort.c; sourceTree = "<group>"; };
 		F58F9EB418D16254009AE62C /* sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sort.h; sourceTree = "<group>"; };
+		F5F3296E18D7ED3B00D09651 /* cairo-deprecated.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-deprecated.h"; sourceTree = "<group>"; };
+		F5F3296F18D7ED3B00D09651 /* cairo-features.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-features.h"; sourceTree = "<group>"; };
+		F5F3297018D7ED3B00D09651 /* cairo-ft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-ft.h"; sourceTree = "<group>"; };
+		F5F3297118D7ED3B00D09651 /* cairo-pdf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-pdf.h"; sourceTree = "<group>"; };
+		F5F3297218D7ED3B00D09651 /* cairo-ps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-ps.h"; sourceTree = "<group>"; };
+		F5F3297318D7ED3B00D09651 /* cairo-script-interpreter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-script-interpreter.h"; sourceTree = "<group>"; };
+		F5F3297418D7ED3B00D09651 /* cairo-script.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-script.h"; sourceTree = "<group>"; };
+		F5F3297518D7ED3B00D09651 /* cairo-svg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-svg.h"; sourceTree = "<group>"; };
+		F5F3297618D7ED3B00D09651 /* cairo-tee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-tee.h"; sourceTree = "<group>"; };
+		F5F3297718D7ED3B00D09651 /* cairo-version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-version.h"; sourceTree = "<group>"; };
+		F5F3297818D7ED3B00D09651 /* cairo-xcb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-xcb.h"; sourceTree = "<group>"; };
+		F5F3297918D7ED3B00D09651 /* cairo-xlib-xrender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-xlib-xrender.h"; sourceTree = "<group>"; };
+		F5F3297A18D7ED3B00D09651 /* cairo-xlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-xlib.h"; sourceTree = "<group>"; };
+		F5F3297B18D7ED3B00D09651 /* cairo-xml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-xml.h"; sourceTree = "<group>"; };
+		F5F3297C18D7ED3B00D09651 /* cairo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cairo.h; sourceTree = "<group>"; };
+		F5F3297E18D7EF6100D09651 /* cairo-deprecated.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-deprecated.h"; sourceTree = "<group>"; };
+		F5F3297F18D7EF6100D09651 /* cairo-features.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-features.h"; sourceTree = "<group>"; };
+		F5F3298018D7EF6100D09651 /* cairo-ft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-ft.h"; sourceTree = "<group>"; };
+		F5F3298118D7EF6100D09651 /* cairo-pdf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-pdf.h"; sourceTree = "<group>"; };
+		F5F3298218D7EF6100D09651 /* cairo-ps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-ps.h"; sourceTree = "<group>"; };
+		F5F3298318D7EF6100D09651 /* cairo-script-interpreter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-script-interpreter.h"; sourceTree = "<group>"; };
+		F5F3298418D7EF6100D09651 /* cairo-script.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-script.h"; sourceTree = "<group>"; };
+		F5F3298518D7EF6100D09651 /* cairo-svg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-svg.h"; sourceTree = "<group>"; };
+		F5F3298618D7EF6100D09651 /* cairo-tee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-tee.h"; sourceTree = "<group>"; };
+		F5F3298718D7EF6100D09651 /* cairo-version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-version.h"; sourceTree = "<group>"; };
+		F5F3298818D7EF6100D09651 /* cairo-xcb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-xcb.h"; sourceTree = "<group>"; };
+		F5F3298918D7EF6100D09651 /* cairo-xlib-xrender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-xlib-xrender.h"; sourceTree = "<group>"; };
+		F5F3298A18D7EF6100D09651 /* cairo-xlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-xlib.h"; sourceTree = "<group>"; };
+		F5F3298B18D7EF6100D09651 /* cairo-xml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cairo-xml.h"; sourceTree = "<group>"; };
+		F5F3298C18D7EF6100D09651 /* cairo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cairo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F3298D18D7EF7500D09651 /* cairo.h in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +79,8 @@
 		F58F9E9D18D161A3009AE62C = {
 			isa = PBXGroup;
 			children = (
+				F5F3297D18D7EF6100D09651 /* cairo */,
+				F5F3296D18D7ED3B00D09651 /* cairo */,
 				F58F9EA818D161A3009AE62C /* algorithms */,
 				F58F9EA718D161A3009AE62C /* Products */,
 			);
@@ -69,6 +103,52 @@
 				F58F9EB418D16254009AE62C /* sort.h */,
 			);
 			path = algorithms;
+			sourceTree = "<group>";
+		};
+		F5F3296D18D7ED3B00D09651 /* cairo */ = {
+			isa = PBXGroup;
+			children = (
+				F5F3296E18D7ED3B00D09651 /* cairo-deprecated.h */,
+				F5F3296F18D7ED3B00D09651 /* cairo-features.h */,
+				F5F3297018D7ED3B00D09651 /* cairo-ft.h */,
+				F5F3297118D7ED3B00D09651 /* cairo-pdf.h */,
+				F5F3297218D7ED3B00D09651 /* cairo-ps.h */,
+				F5F3297318D7ED3B00D09651 /* cairo-script-interpreter.h */,
+				F5F3297418D7ED3B00D09651 /* cairo-script.h */,
+				F5F3297518D7ED3B00D09651 /* cairo-svg.h */,
+				F5F3297618D7ED3B00D09651 /* cairo-tee.h */,
+				F5F3297718D7ED3B00D09651 /* cairo-version.h */,
+				F5F3297818D7ED3B00D09651 /* cairo-xcb.h */,
+				F5F3297918D7ED3B00D09651 /* cairo-xlib-xrender.h */,
+				F5F3297A18D7ED3B00D09651 /* cairo-xlib.h */,
+				F5F3297B18D7ED3B00D09651 /* cairo-xml.h */,
+				F5F3297C18D7ED3B00D09651 /* cairo.h */,
+			);
+			name = cairo;
+			path = ../../../../opt/X11/include/cairo;
+			sourceTree = "<group>";
+		};
+		F5F3297D18D7EF6100D09651 /* cairo */ = {
+			isa = PBXGroup;
+			children = (
+				F5F3297E18D7EF6100D09651 /* cairo-deprecated.h */,
+				F5F3297F18D7EF6100D09651 /* cairo-features.h */,
+				F5F3298018D7EF6100D09651 /* cairo-ft.h */,
+				F5F3298118D7EF6100D09651 /* cairo-pdf.h */,
+				F5F3298218D7EF6100D09651 /* cairo-ps.h */,
+				F5F3298318D7EF6100D09651 /* cairo-script-interpreter.h */,
+				F5F3298418D7EF6100D09651 /* cairo-script.h */,
+				F5F3298518D7EF6100D09651 /* cairo-svg.h */,
+				F5F3298618D7EF6100D09651 /* cairo-tee.h */,
+				F5F3298718D7EF6100D09651 /* cairo-version.h */,
+				F5F3298818D7EF6100D09651 /* cairo-xcb.h */,
+				F5F3298918D7EF6100D09651 /* cairo-xlib-xrender.h */,
+				F5F3298A18D7EF6100D09651 /* cairo-xlib.h */,
+				F5F3298B18D7EF6100D09651 /* cairo-xml.h */,
+				F5F3298C18D7EF6100D09651 /* cairo.h */,
+			);
+			name = cairo;
+			path = ../../../../opt/X11/include/cairo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +283,7 @@
 		F58F9EB018D161A4009AE62C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LD_NO_PIE = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -210,6 +291,7 @@
 		F58F9EB118D161A4009AE62C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LD_NO_PIE = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -233,6 +315,7 @@
 				F58F9EB118D161A4009AE62C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

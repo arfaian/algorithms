@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+#include "cairo.h"
 #include "sort.h"
 
 void sort(int array[]);
